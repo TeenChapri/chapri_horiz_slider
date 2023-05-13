@@ -1,8 +1,7 @@
-library chapri_horiz_slider; // this is for Future
+library chapri_horiz_slider; // this is for Future and also by default
 
 import 'package:flutter/material.dart';
 
-/// A Calculator.
 
 class ChapriHorizSlider extends StatefulWidget {
   final num? sliderHeight; //background one height
@@ -27,8 +26,8 @@ class ChapriHorizSlider extends StatefulWidget {
 }
 
 class _ChapriHorizSliderState extends State<ChapriHorizSlider>
-    with SingleTickerProviderStateMixin {
-  //single Ticker is Not Required But this is for Future
+    {
+  //  with SingleTickerProviderStateMixin single Ticker is Not Required But this is for Future
   double scrollPercentage = 0;
   @override
   void initState() {
